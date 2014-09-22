@@ -5,4 +5,16 @@
 	<artifactId>com.system.positioning.local</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>com.system.location.retrieval</name>
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>javax.persistence</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>2.6.0-M3</version>
+		</dependency>
+	</dependencies>
 </project>
